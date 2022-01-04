@@ -1,0 +1,13 @@
+{
+  "name": "mf-kintai style change",
+  "author": "nokonpt",
+  "description": "マネーフォワードクラウド勤怠のミス打刻を防ぐ拡張機能です",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://attendance.moneyforward.com/my_page"],
+      "css": ["style.css"],"js": ["jquery.min.js","script.js"]
+    }
+  ]
+}
