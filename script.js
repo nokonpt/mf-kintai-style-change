@@ -15,9 +15,9 @@ window.addEventListener('focus', play, false);
 
 $(function(){
   const today = $('#web_time_recorder_form_user_time').val();
-  // 8h,9h は出勤のみ表示
+  // 8時,9時 は出勤のみ表示
   const dataA = /(T23|T00)/g;
-  // 16h,17h,18h,19h,20h,21h,22h,23h は退勤のみ表示
+  // 16時,17時,18時,19時,20時,21時,22時,23時 は退勤のみ表示
   const dataB = /(T07|T08|T09|T10|T11|T12|T13)/g;
   console.log(today);
   if(today.match(dataA)){
