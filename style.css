@@ -109,21 +109,28 @@ body {
 
 #kt-attendance-card-time-stamp {
     position: relative;
+    width: calc(100% - 370px);
+
 }
 
 #hackButtonNone {
-    color: #4169e1;
+    color: #fff;
     box-sizing: border-box;
     position: absolute;
-    top: 50%;
-    left: 300px;
-    width: 120px;
-    height: 40px;
+    top: 110px;
+    right: 10%;
+    width: 70px;
+    height: 30px;
     font-size: 13px;
     margin: 0;
     padding: 0;
     border: 0;
     overflow: hidden;
+    border-radius: 3px;
+    background: #ccc;
+}
+#hackButtonNone:hover {
+    background: #d0021b;
 }
 
 #hackButtonNone .attendance-card-time-stamp-icon {
@@ -131,12 +138,13 @@ body {
     margin-bottom: 0;
     display: inline-block;
     vertical-align: middle;
-    line-height: 1.1;
 }
+
 #hackButtonNone .attendance-card-time-stamp-icon::before {
-    font-size: 20px;
-    position: relative;
-    top: -1px;
+    font-size: 14px;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
 }
 
 /*background*/
