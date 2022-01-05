@@ -8,7 +8,7 @@
 Chromeウェブストアに公開していないため、手動でインストールを行ってください。
 
 1. 任意のディレクトリにソースコードを[zipダウンロード](https://github.com/nokonpt/mf-kintai-style-change/archive/refs/heads/main.zip)する
-2. ダウンロードした **mf-kintai-style-change.zip** を解凍しておく
+2. ダウンロードした **mf-kintai-style-change.zip** を展開（解凍）しておく
 3. Chrome拡張機能の **デベロッパーモード** を有効にする
 4. **パッケージ化されていない拡張機能の読み込み** から **mf-kintai-style-change** を指定してインストールする
 
