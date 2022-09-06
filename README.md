@@ -1,6 +1,12 @@
 # ChromeExtension for マネーフォワードクラウド勤怠
 マネーフォワードクラウド勤怠のミス打刻を防ぐ拡張機能です。
 
+```
+2022年9月に打刻方法(ホーム画面)がリニューアルされます。
+今後このプラグインは不要になります。
+https://biz.moneyforward.com/support/attendance/news/new-feature/20220906.html
+```
+
 ## 概要
 [マネーフォワードクラウド勤怠](https://biz.moneyforward.com/attendance) のホーム画面にある出勤・退勤の打刻ボタンのstyleを時間によって変更するGoogleChrome拡張機能です。
 
